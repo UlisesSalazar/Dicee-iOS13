@@ -34,11 +34,13 @@ class ViewController: UIViewController {
     
     @IBAction func rollButtonPressed(_ sender: UIButton) {
         
-        diceImageView1.image = [ UIImage(imageLiteralResourceName: "DiceSix"), UIImage(imageLiteralResourceName: "DiceOne"), UIImage(imageLiteralResourceName: "DiceTwo"), UIImage(imageLiteralResourceName:"DiceThree"), UIImage(imageLiteralResourceName: "DiceFour"), UIImage(imageLiteralResourceName: "DiceFive")] [leftDiceNumber]
-        diceImageView2.image = [ UIImage(imageLiteralResourceName: "DiceSix"), UIImage(imageLiteralResourceName: "DiceOne"), UIImage(imageLiteralResourceName: "DiceTwo"), UIImage(imageLiteralResourceName:"DiceThree"), UIImage(imageLiteralResourceName: "DiceFour"), UIImage(imageLiteralResourceName: "DiceFive")] [rightDiceNumber]
+        diceImageView1.image = [ UIImage(imageLiteralResourceName: "DiceSix"), UIImage(imageLiteralResourceName: "DiceOne"), UIImage(imageLiteralResourceName: "DiceTwo"), UIImage(imageLiteralResourceName:"DiceThree"), UIImage(imageLiteralResourceName: "DiceFour"), UIImage(imageLiteralResourceName: "DiceFive")] [Int.random(in: 0...5)]
+        diceImageView2.image = [ UIImage(imageLiteralResourceName: "DiceSix"), UIImage(imageLiteralResourceName: "DiceOne"), UIImage(imageLiteralResourceName: "DiceTwo"), UIImage(imageLiteralResourceName:"DiceThree"), UIImage(imageLiteralResourceName: "DiceFour"), UIImage(imageLiteralResourceName: "DiceFive")] [Int.random(in: 0...5)]
         
-        leftDiceNumber = leftDiceNumber + 1
-        rightDiceNumber = rightDiceNumber - 1
+         leftDiceNumber += 1
+         rightDiceNumber -= 1
+        
+        
     }
     
 }
