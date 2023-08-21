@@ -34,8 +34,14 @@ class ViewController: UIViewController {
     
     @IBAction func rollButtonPressed(_ sender: UIButton) {
         
-        diceImageView1.image = [ UIImage(imageLiteralResourceName: "DiceSix"), UIImage(imageLiteralResourceName: "DiceOne"), UIImage(imageLiteralResourceName: "DiceTwo"), UIImage(imageLiteralResourceName:"DiceThree"), UIImage(imageLiteralResourceName: "DiceFour"), UIImage(imageLiteralResourceName: "DiceFive")] [Int.random(in: 0...5)]
-        diceImageView2.image = [ UIImage(imageLiteralResourceName: "DiceSix"), UIImage(imageLiteralResourceName: "DiceOne"), UIImage(imageLiteralResourceName: "DiceTwo"), UIImage(imageLiteralResourceName:"DiceThree"), UIImage(imageLiteralResourceName: "DiceFour"), UIImage(imageLiteralResourceName: "DiceFive")] [Int.random(in: 0...5)]
+        
+        var diceArray =  [ UIImage(imageLiteralResourceName: "DiceSix"), UIImage(imageLiteralResourceName: "DiceOne"), UIImage(imageLiteralResourceName: "DiceTwo"), UIImage(imageLiteralResourceName:"DiceThree"), UIImage(imageLiteralResourceName: "DiceFour"), UIImage(imageLiteralResourceName: "DiceFive")]
+        
+        
+        diceImageView1.image = diceArray [Int.random(in: 0...5)]
+        diceImageView2.image = diceArray [Int.random(in: 0...5)]
+        diceImageView3.image = diceArray [Int.random(in: 0...5)]
+        diceImageView4.image = diceArray [Int.random(in: 0...5 )]
         
          leftDiceNumber += 1
          rightDiceNumber -= 1
