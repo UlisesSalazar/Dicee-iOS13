@@ -31,7 +31,6 @@
                                                 <rect key="frame" x="98.666666666666686" y="58.333333333333329" width="196" height="127.99999999999999"/>
                                             </imageView>
                                         </subviews>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
                                             <constraint firstItem="fwF-EB-aEF" firstAttribute="centerY" secondItem="eEi-SS-Ugj" secondAttribute="centerY" id="48V-G5-2tI"/>
                                             <constraint firstItem="fwF-EB-aEF" firstAttribute="centerX" secondItem="eEi-SS-Ugj" secondAttribute="centerX" id="YQg-RJ-WVu"/>
@@ -40,25 +39,24 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3zP-Rs-kpr" userLabel="middleView">
                                         <rect key="frame" x="0.0" y="257.33333333333331" width="393" height="244.33333333333331"/>
                                         <subviews>
-                                            <stackView opaque="NO" contentMode="scaleToFill" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="BTu-qe-V1f">
-                                                <rect key="frame" x="-3.6666666666666572" y="72.333333333333371" width="400.33333333333326" height="100"/>
+                                            <stackView opaque="NO" contentMode="scaleToFill" alignment="top" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="BTu-qe-V1f">
+                                                <rect key="frame" x="-12.666666666666657" y="72.333333333333371" width="418.33333333333326" height="100"/>
                                                 <subviews>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="imageView:H0o-bs-LzU:image" translatesAutoresizingMaskIntoConstraints="NO" id="H0o-bs-LzU">
                                                         <rect key="frame" x="0.0" y="0.0" width="100.33333333333333" height="100"/>
                                                     </imageView>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="imageView:H0o-bs-LzU:image" translatesAutoresizingMaskIntoConstraints="NO" id="OEe-Jv-bOC">
-                                                        <rect key="frame" x="100.33333333333334" y="0.0" width="100" height="100"/>
+                                                        <rect key="frame" x="106.33333333333334" y="0.0" width="100" height="100"/>
                                                     </imageView>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="imageView:H0o-bs-LzU:image" translatesAutoresizingMaskIntoConstraints="NO" id="e1t-YX-ZXX">
-                                                        <rect key="frame" x="200.33333333333331" y="0.0" width="100" height="100"/>
+                                                        <rect key="frame" x="212.33333333333331" y="0.0" width="100" height="100"/>
                                                     </imageView>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="imageView:H0o-bs-LzU:image" translatesAutoresizingMaskIntoConstraints="NO" id="cu3-ti-A9u">
-                                                        <rect key="frame" x="300.33333333333337" y="0.0" width="100" height="100"/>
+                                                        <rect key="frame" x="318.33333333333337" y="0.0" width="100" height="100"/>
                                                     </imageView>
                                                 </subviews>
                                             </stackView>
                                         </subviews>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
                                             <constraint firstItem="BTu-qe-V1f" firstAttribute="centerX" secondItem="3zP-Rs-kpr" secondAttribute="centerX" id="ALP-o3-LRu"/>
                                             <constraint firstItem="BTu-qe-V1f" firstAttribute="centerY" secondItem="3zP-Rs-kpr" secondAttribute="centerY" id="Ely-d7-tFe"/>
@@ -80,7 +78,6 @@
                                                 </connections>
                                             </button>
                                         </subviews>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
                                             <constraint firstItem="aQ2-Zo-1Wf" firstAttribute="centerX" secondItem="mfR-8C-hVG" secondAttribute="centerX" id="HG8-hN-p39"/>
                                             <constraint firstItem="aQ2-Zo-1Wf" firstAttribute="centerY" secondItem="mfR-8C-hVG" secondAttribute="centerY" id="oZX-YM-Jhr"/>
